@@ -2,7 +2,7 @@
 // @name         PiP Shortcut
 // @namespace    https://github.com/sachinthakac/tampermonkey_scripts
 // @version      1.1
-// @description  PiP Shortcut
+// @description  Hotkey to make play HTML5 video in Picture in Picture format.
 // @author       sachi
 // @match        http://*/*
 // @icon         https://raw.githubusercontent.com/sachinthakac/tampermonkey_scripts/main/icons/pip.ico

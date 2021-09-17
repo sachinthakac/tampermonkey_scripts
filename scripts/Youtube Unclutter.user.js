@@ -2,7 +2,7 @@
 // @name         Youtube Unclutter
 // @namespace    https://github.com/sachinthakac/tampermonkey_scripts
 // @version      1.0
-// @description  Unclutter youtube by disabeling seekbar and info
+// @description  Unclutter YouTube by hiding seekbar, video info and channel icon
 // @author       saro
 // @match        https://www.youtube.com/*
 // @icon         https://raw.githubusercontent.com/sachinthakac/tampermonkey_scripts/main/icons/youtube_unclutter.ico
