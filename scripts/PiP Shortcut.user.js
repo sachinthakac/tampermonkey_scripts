@@ -5,7 +5,7 @@
 // @description  PiP Shortcut
 // @author       sachi
 // @match        http://*/*
-// @icon         https://github.com/sachinthakac/tampermonkey_scripts/blob/main/icons/pip.ico
+// @icon         https://raw.githubusercontent.com/sachinthakac/tampermonkey_scripts/main/icons/pip.ico
 // @grant        none
 // ==/UserScript==
 

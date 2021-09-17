@@ -5,7 +5,7 @@
 // @description  Unclutter youtube by disabeling seekbar and info
 // @author       saro
 // @match        https://www.youtube.com/*
-// @icon         https://github.com/sachinthakac/tampermonkey_scripts/blob/main/icons/youtube_unclutter.ico
+// @icon         https://raw.githubusercontent.com/sachinthakac/tampermonkey_scripts/main/icons/youtube_unclutter.ico
 // @grant        none
 // ==/UserScript==
 
