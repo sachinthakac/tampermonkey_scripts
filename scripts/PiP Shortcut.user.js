@@ -4,7 +4,7 @@
 // @version      1.1
 // @description  Hotkey to make play HTML5 video in Picture in Picture format.
 // @author       sachi
-// @match        http://*/*
+// @match        http*://
 // @icon         https://raw.githubusercontent.com/sachinthakac/tampermonkey_scripts/main/icons/pip.ico
 // @grant        none
 // ==/UserScript==
