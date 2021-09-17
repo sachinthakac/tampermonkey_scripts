@@ -5,9 +5,13 @@
 // @description  Unclutter youtube by disabeling seekbar and info
 // @author       saro
 // @match        https://www.youtube.com/*
-// @icon         https://www.google.com/s2/favicons?domain=youtube.com
+// @icon         https://github.com/sachinthakac/tampermonkey_scripts/blob/main/icons/youtube_unclutter.ico
 // @grant        none
 // ==/UserScript==
+
+/*  Slight modification of the code by @Christian Wijaya.
+    web: https://asapguide.com/hide-youtube-bar/
+*/
 
 (function() {
     'use strict';
