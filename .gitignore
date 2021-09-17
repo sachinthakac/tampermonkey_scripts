@@ -1,1 +1,6 @@
-./.metals
+// untraked
+.metals
+.vscode
+
+// not published
+scripts/Search Letterboxd.user.js
