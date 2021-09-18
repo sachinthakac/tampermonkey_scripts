@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Unclutter
 // @namespace    https://github.com/sachinthakac/tampermonkey_scripts
-// @version      1.0.1
+// @version      1.0.2
 // @description  Unclutter YouTube by hiding seekbar, video info and channel icon
 // @author       saro
 // @match        https://www.youtube.com/*
@@ -17,9 +17,10 @@
     'use strict';
 
     var yt_uncletter_hidden = false;
+    let select = ".ytp-gradient-top,.ytp-gradient-bottom,.branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom";
 
     function hide () {
-        var goaway=".ytp-gradient-bottom,.branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:none;}";
+        var goaway = select + "{display:none;}";
         if("\v"=="v") {
             document.createStyleSheet().cssText=goaway;
         } else {
@@ -31,7 +32,7 @@
     };
 
     function show () {
-        var goaway=".ytp-gradient-bottom,.branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:initial;}";
+        var goaway = select + "{display:initial;}";
         if("\v"=="v") {
             document.createStyleSheet().cssText=goaway;
         } else {
