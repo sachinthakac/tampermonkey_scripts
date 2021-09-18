@@ -19,7 +19,7 @@
     var yt_uncletter_hidden = false;
 
     function hide () {
-        var goaway=".branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:none;}";
+        var goaway=".ytp-gradient-bottom,.branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:none;}";
         if("\v"=="v") {
             document.createStyleSheet().cssText=goaway;
         } else {
@@ -31,7 +31,7 @@
     };
 
     function show () {
-        var goaway=".branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:initial;}";
+        var goaway=".ytp-gradient-bottom,.branding-img-container,.ytp-chrome-top,.ytp-chrome-bottom{display:initial;}";
         if("\v"=="v") {
             document.createStyleSheet().cssText=goaway;
         } else {
