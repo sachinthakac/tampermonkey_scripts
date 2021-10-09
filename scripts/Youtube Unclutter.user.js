@@ -44,7 +44,7 @@
     };
 
     document.addEventListener('keyup', function(e) {
-        if(e.key === 'u') {
+        if(e.ctrlKey && e.key === 'u') {
             if(yt_uncletter_hidden === false) {
                 hide();
                 yt_uncletter_hidden = true;
