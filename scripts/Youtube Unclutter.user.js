@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Unclutter
 // @namespace    https://github.com/sachinthakac/tampermonkey_scripts
-// @version      1.0.4
+// @version      1.0.5
 // @description  Unclutter YouTube by hiding seekbar, video info and channel icon
 // @author       saro
 // @match        https://www.youtube.com/*
@@ -44,7 +44,7 @@
     };
 
     document.addEventListener('keyup', function(e) {
-        if(e.ctrlKey && e.key === 'u') {
+        if(e.shiftKey && e.ctrlKey && e.key === 'u') {
             if(yt_uncletter_hidden === false) {
                 hide();
                 yt_uncletter_hidden = true;
