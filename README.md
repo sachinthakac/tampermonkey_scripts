@@ -14,5 +14,5 @@ Hotkey to make play HTML5 video in Picture in Picture format. Will prioratize an
 - Sites: any
 #### [Youtube Unclutter](https://github.com/sachinthakac/tampermonkey_scripts/blob/main/scripts/Youtube%20Unclutter.user.js)
 Unclutter YouTube by hiding seekbar, video info and channel icon. Press hotkey again to show.
-- Shortcut: U
+- Shortcut: SHIFT+CRTL+U
 - Sites: YouTube
