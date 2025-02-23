@@ -16,3 +16,6 @@ Hotkey to make play HTML5 video in Picture in Picture format. Will prioratize an
 Unclutter YouTube by hiding seekbar, video info and channel icon. Press hotkey again to show.
 - Shortcut: CTRL+SHIFT+U
 - Sites: YouTube
+#### [Letterboxd Pop Up Dismisser](https://github.com/sachinthakac/tampermonkey_scripts/blob/main/scripts/letterboxd.user.js)
+Auto dismisses Letterboxd ad block pop up
+- Sites: Letterboxd
